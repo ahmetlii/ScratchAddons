@@ -1,0 +1,21 @@
+{
+    "name": "Canned texts",
+    "description": "Allows you to use preset so that you can use same comments.",
+    "userscripts": [
+      {
+        "url": "userscript.js",
+        "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/studios/*", "https://scratch.mit.edu/users/*", "https://scratch.mit.edu/discuss/*"]
+      }
+    ],
+    "tags": ["community", "recommended"],
+    "enabled_by_default": false,
+    "options": [
+        {
+          "name": "Canned text button name",
+          "id": "buttonName",
+          "type": "string",
+          "default": "Presets"
+        }
+      ]    
+  }
+  
